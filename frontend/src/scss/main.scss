@@ -1,0 +1,43 @@
+@import "variables";
+
+// Fonts
+$app-font: "Avenir", "Helvetica", "Arial", sans-serif;
+
+#app {
+  font-family: $app-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: $color-text;
+
+  .btn-primary {
+    background: $color-primary;
+    color: #ffffff;
+    padding: 0.625rem 1.25rem;
+
+    &:hover {
+      background: $color-primary;
+      color: #ffffff;
+    }
+  }
+
+  .btn-danger {
+    background: $color-danger;
+    color: #ffffff;
+    padding: 0.625rem 1.25rem;
+
+    &:hover {
+      background: $color-danger;
+      color: #ffffff;
+    }
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+}
+
+body {
+  background: $color-background;
+  overflow: hidden;
+}
