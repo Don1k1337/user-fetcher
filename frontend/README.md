@@ -13,7 +13,9 @@ Install dependencies using PNPM or NPM:
 ```bash
 pnpm install
 ```
+
 or
+
 ```bash
 npm install
 ```
@@ -25,7 +27,9 @@ Describe how to use/run the project once it's set up.
 ```bash
 pnpm run dev
 ```
+
 or
+
 ```bash
 npm run dev
 ```

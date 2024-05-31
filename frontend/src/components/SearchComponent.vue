@@ -107,7 +107,6 @@ const onSubmit = handleSubmit(async (values) => {
       email: values.email,
     });
     userData.value = response.users;
-    console.log(userData.value);
   } catch (error) {
     console.error("Validation errors or API error:", error);
   } finally {
